@@ -9,20 +9,10 @@ package ex03truthmarcelo;
  *
  * @author TRUTH
  */
-public class Ex03TruthMarcelo {
 
-    /**
-     * @param args the command line arguments
-     */
+public class Ex03TruthMarcelo {
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
-        public class Song {
-            String name;
-            String genre;
-            
-            public Song() {
-                
-            }
-        }
 }
