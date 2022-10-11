@@ -15,7 +15,14 @@ public class Singer {
     double earnings;
     Song favoriteSong;
     
-    void performForAudience(byte number) {
-        
+    
+    
+    public void performForAudience(byte number) {
+        noOfPerformances += 1;
+        earnings += number*100;
+    }
+    
+    public void changeFavSong (Song newFavSong) {
+        favoriteSong = newFavSong;
     }
 }
