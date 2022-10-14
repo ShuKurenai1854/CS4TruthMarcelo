@@ -12,10 +12,10 @@ package ex03truthmarcelo;
 public class Song {
     String name;
     String genre;
-    byte fame;
-    byte impact;
+    int fame;
+    int impact;
     
-    public Song(String n, String g, byte f, byte i) {
+    public Song(String n, String g, int f, int i) {
         name = n;
         genre = g;
         fame = f;
@@ -25,6 +25,7 @@ public class Song {
     public void overrate(byte overratedness) {
        fame -= overratedness;
     }
+    
     public void underrate(byte underratedness) {
         fame += underratedness;
     }

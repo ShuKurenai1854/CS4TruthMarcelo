@@ -15,7 +15,12 @@ public class Singer {
     double earnings;
     Song favoriteSong;
     
-    
+    public Singer(String n, int p, double e, Song f) {
+        name = n;
+        noOfPerformances = p;
+        earnings = e;
+        favoriteSong = f;
+    }
     
     public void performForAudience(byte number) {
         noOfPerformances += 1;
