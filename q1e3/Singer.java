@@ -22,7 +22,7 @@ public class Singer {
         favoriteSong = f;
     }
     
-    public void performForAudience(byte number) {
+    public void performForAudience(int number) {
         noOfPerformances += 1;
         earnings += number*100;
     }

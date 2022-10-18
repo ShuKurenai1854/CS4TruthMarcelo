@@ -22,11 +22,11 @@ public class Song {
         impact = i;
     }
     
-    public void overrate(byte overratedness) {
+    public void overrate(int overratedness) {
        fame -= overratedness;
     }
     
-    public void underrate(byte underratedness) {
+    public void underrate(int underratedness) {
         fame += underratedness;
     }
 }
